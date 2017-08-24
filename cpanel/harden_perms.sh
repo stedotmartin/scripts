@@ -1,5 +1,7 @@
 #!/bin/bash
- 
+
+# Original from https://lxadm.com/Serious_security_flaw_in_WHM/cPanel_%E2%80%93_symlinks_and_.htaccess_can_be_evil
+
 # changes the permissions to user-readable only
 ACCOUNTS=$(ls /home/*/public_html -d | awk -F/ '{print $3}')
  
