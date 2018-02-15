@@ -41,7 +41,7 @@
 # docker start test-ubu -a
 
 
-# USAGE backup_mysql.sh host user password backup_home retention_cout'
+# USAGE backup_mysql.sh host user password backup_home retention_count'
 # backup_mysql.sh 192.168.0.1 root password /home/ubuntu/backups 10'
 
 MYSQL_HOST=$1
