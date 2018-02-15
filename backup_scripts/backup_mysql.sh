@@ -7,7 +7,7 @@
 #
 # hypersrv.com | Web at scale solutions
 #
-# export_db.sh Stephen Martin <sm@hypersrv.com>
+# Stephen Martin <sm@hypersrv.com>
 # ------------------------------------------
 # Script to backup all mysql databases, will retain backups and automatically delete expired
 # 
