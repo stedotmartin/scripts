@@ -58,6 +58,20 @@ if [ "$#" -ne 5 ]; then
     exit 1
 fi
 
+which mysqlldump > /dev/null 2>&1
+RET=$?
+if [ ! $RET -eq 0 ];then
+	echo "[!] FATAL error no mysqldump"
+	exit 1
+fi
+
+which mysql > /dev/null 2>&1
+RET=$?
+if [ ! $RET -eq 0 ];then
+	echo "[!] FATAL error no mysql"
+	exit 1
+fi
+
 function cleanup {
 if [ -d $DUMPLOC ]; then
 	echo "Cleaning $DUMPLOC"
