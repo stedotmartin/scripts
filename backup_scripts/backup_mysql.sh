@@ -58,7 +58,7 @@ if [ "$#" -ne 5 ]; then
     exit 1
 fi
 
-which mysqlldump > /dev/null 2>&1
+which mysqldump > /dev/null 2>&1
 RET=$?
 if [ ! $RET -eq 0 ];then
 	echo "[!] FATAL error no mysqldump"
