@@ -11,7 +11,7 @@
 # ------------------------------------------
 # Script to backup all mysql databases, will retain backups and automatically delete expired
 # 
-# Copyright (c) 2016, Stephen Martin <sm@hypersrv.com>
+# Copyright (c) 2018, Stephen Martin <sm@hypersrv.com>
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without 
