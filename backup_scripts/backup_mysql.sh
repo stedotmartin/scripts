@@ -9,7 +9,7 @@
 #
 # export_db.sh Stephen Martin <sm@hypersrv.com>
 # ------------------------------------------
-# Script to backup all database to individual files
+# Script to backup all mysql databases, will retain backups and automatically delete expired
 # 
 # Copyright (c) 2016, Stephen Martin <sm@hypersrv.com>
 # All rights reserved.
